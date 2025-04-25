@@ -86,7 +86,7 @@ public class FungsiMain {
 
     public static void sortingPenilaian() {
         for (int i = 0; i < daftarPenilaian.length - 1; i++) {
-            for (int j = 0; j < daftarPenilaian.length - i - 1; j++) {
+            for (int j = 0; j < daftarPenilaian.length - i - 1 ; j++) {
                 if (daftarPenilaian[j].nilaiAkhir < daftarPenilaian[j + 1].nilaiAkhir) {
                     Penilaian temp = daftarPenilaian[j];
                     daftarPenilaian[j] = daftarPenilaian[j + 1];
